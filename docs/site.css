@@ -1,17 +1,12 @@
 /* Code 3 Installer — download page (GitHub Pages). Shared by / (Arabic) and /en/ (English). */
 :root{
-  --paper:#e9e4da;--paper2:#ded7c9;--card:#f2eee6;--raise:#f7f4ee;--ink:#2c2a25;--ink2:#47433b;--mute:#746d61;--line:#d4cbbb;
-  --red:#b9544b;--blue:#46709f;--green:#3c8a5b;--deep:#33302a;--on:#efe9de;--cta:#33302a;--cta-ink:#f4efe6;--cta-edge:#1f1d19;
-  --warn-bg:#f1e6d1;--warn-line:#dcc9a6;--warn-dot:#a3681c;
-  --r:14px;--sh:0 1px 2px rgba(60,50,30,.06),0 10px 26px -18px rgba(60,50,30,.3);
+  --paper:#161513;--paper2:#1e1c19;--card:#1d1b18;--raise:#24221e;--ink:#e6e0d4;--ink2:#c9c2b4;--mute:#958d80;--line:#2f2c27;
+  --red:#cf7a70;--blue:#86a8d6;--green:#6bb88a;--deep:#24211d;--on:#e9e3d7;--cta:#e6e0d4;--cta-ink:#1a1916;--cta-edge:#8f887b;
+  --warn-bg:#241f17;--warn-line:#3e3424;--warn-dot:#d29a4a;
+  --r:14px;--sh:0 1px 2px rgba(0,0,0,.35),0 14px 30px -20px rgba(0,0,0,.7);
   --ar:"Tajawal","Segoe UI",Tahoma,sans-serif;--en:"Outfit","Segoe UI",system-ui,sans-serif
 }
-@media (prefers-color-scheme:dark){:root{
-  --paper:#1c1a17;--paper2:#25221e;--card:#23201c;--raise:#2a2722;--ink:#e8e2d6;--ink2:#cfc7b8;--mute:#9b9385;--line:#38342d;
-  --red:#cf7a70;--blue:#86a8d6;--green:#6bb88a;--deep:#2b2823;--on:#ebe5d9;--cta:#e8e2d6;--cta-ink:#1f1d19;--cta-edge:#9b9385;
-  --warn-bg:#2c261c;--warn-line:#4a3e2a;--warn-dot:#d29a4a;
-  --sh:0 1px 2px rgba(0,0,0,.3),0 12px 28px -18px rgba(0,0,0,.6)
-}}
+html{color-scheme:dark}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{background:var(--paper);color:var(--ink);font:16px/1.75 var(--ar);overflow-x:hidden}
@@ -113,7 +108,7 @@ h2{font-size:clamp(26px,3vw,36px);line-height:1.25;font-weight:800;letter-spacin
 /* features: uneven grid */
 .feat{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
 .f{grid-column:span 2;padding:24px;border-radius:var(--r);background:var(--card);border:1px solid var(--line);box-shadow:var(--sh)}
-.f.big{grid-column:span 4;grid-row:span 2;display:grid;align-content:space-between;gap:26px;background:var(--deep);color:var(--on);border-color:var(--deep)}
+.f.big{grid-column:span 4;grid-row:span 2;display:grid;align-content:space-between;gap:26px;background:var(--raise);color:var(--on);border-color:var(--line)}
 .f.wide{grid-column:span 3}
 .f h3{font-size:18px;margin:14px 0 6px;font-weight:700}
 .f p{font-size:15px;color:var(--mute)}
@@ -169,10 +164,10 @@ h2{font-size:clamp(26px,3vw,36px);line-height:1.25;font-weight:800;letter-spacin
 .faq details p{padding:0 22px 20px;color:var(--ink2);font-size:15.5px}
 
 /* closing band */
-.band{margin-top:96px;background:var(--deep);color:var(--on)}
+.band{margin-top:96px;background:var(--paper2);color:var(--on);border-top:1px solid var(--line)}
 .band .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;padding:54px 0}
 .band h2{max-width:22ch}
-.band .dl{background:var(--on);color:var(--deep);box-shadow:0 2px 0 rgba(0,0,0,.35)}
+.band .dl{background:var(--cta);color:var(--cta-ink);box-shadow:0 2px 0 var(--cta-edge)}
 .band .dl small{opacity:.6}
 footer{padding:30px 0 40px;font-size:13.5px;color:var(--mute)}
 footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
@@ -201,4 +196,12 @@ footer p{max-width:70ch}
   section{padding-top:64px}
   .tag{display:none}
 }
-@media (prefers-color-scheme:dark){.brand img,.app-bar img{filter:invert(1) hue-rotate(180deg)}}
+.brand img,.app-bar img{filter:invert(1) hue-rotate(180deg)}
+/* white as an accent only: the installer preview and the Smart Install tile */
+.app,.f.big{--card:#efeae0;--raise:#f7f4ee;--paper:#e5dfd3;--ink:#24221e;--ink2:#3e3a33;--mute:#6f685c;--line:#d7cebe;--deep:#2b2823;--on:#efe9de;--blue:#3f6ea8;--red:#b9544b;--green:#3c8a5b;color:var(--ink)}
+.app{box-shadow:0 1px 0 rgba(255,255,255,.06),0 34px 70px -34px rgba(0,0,0,.85)}
+.app-bar img{filter:none}
+.f.big{background:var(--card);border-color:var(--card)}
+.f.big p{color:var(--mute)}
+.packs div{background:var(--raise);border:1px solid var(--line)}
+.packs small{color:var(--mute)}
