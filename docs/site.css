@@ -1,12 +1,12 @@
 /* Code 3 Installer — download page (GitHub Pages). Shared by / (Arabic) and /en/ (English). */
 :root{
-  --paper:#161513;--paper2:#1e1c19;--card:#1d1b18;--raise:#24221e;--ink:#e6e0d4;--ink2:#c9c2b4;--mute:#958d80;--line:#2f2c27;
-  --red:#cf7a70;--blue:#86a8d6;--green:#6bb88a;--deep:#24211d;--on:#e9e3d7;--cta:#e6e0d4;--cta-ink:#1a1916;--cta-edge:#8f887b;
-  --warn-bg:#241f17;--warn-line:#3e3424;--warn-dot:#d29a4a;
-  --r:14px;--sh:0 1px 2px rgba(0,0,0,.35),0 14px 30px -20px rgba(0,0,0,.7);
+  --paper:#f5f4ee;--paper2:#ecebe2;--card:#ffffff;--raise:#faf9f5;--ink:#1f1e1b;--ink2:#3d3d3a;--mute:#73726c;--line:#e4e2d8;
+  --red:#b5533c;--blue:#c96442;--green:#4f7d5c;--deep:#30302e;--on:#faf9f5;--cta:#c96442;--cta-ink:#ffffff;--cta-edge:#a4502f;
+  --warn-bg:#faf3e6;--warn-line:#ecdcc0;--warn-dot:#b06a1e;
+  --r:14px;--sh:0 1px 2px rgba(31,30,27,.05),0 8px 24px -16px rgba(31,30,27,.22);
   --ar:"Tajawal","Segoe UI",Tahoma,sans-serif;--en:"Outfit","Segoe UI",system-ui,sans-serif
 }
-html{color-scheme:dark}
+html{color-scheme:light}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{background:var(--paper);color:var(--ink);font:16px/1.75 var(--ar);overflow-x:hidden}
@@ -15,8 +15,8 @@ img{display:block;max-width:100%}
 a{color:inherit}
 .en,.num{font-family:var(--en)}
 .wrap{width:min(1160px,100% - 40px);margin-inline:auto}
-.siren{height:3px;opacity:.75;background:linear-gradient(90deg,var(--red) 0 50%,var(--blue) 50% 100%)}
-[dir=rtl] .siren{background:linear-gradient(90deg,var(--blue) 0 50%,var(--red) 50% 100%)}
+.siren{height:3px;opacity:.8;background:linear-gradient(90deg,#d7262e 0 50%,#1d6fe0 50% 100%)}
+[dir=rtl] .siren{background:linear-gradient(90deg,#1d6fe0 0 50%,#d7262e 50% 100%)}
 
 /* header */
 .top{display:flex;align-items:center;gap:28px;height:72px}
@@ -196,12 +196,11 @@ footer p{max-width:70ch}
   section{padding-top:64px}
   .tag{display:none}
 }
-.brand img,.app-bar img{filter:invert(1) hue-rotate(180deg)}
-/* white as an accent only: the installer preview and the Smart Install tile */
-.app,.f.big{--card:#efeae0;--raise:#f7f4ee;--paper:#e5dfd3;--ink:#24221e;--ink2:#3e3a33;--mute:#6f685c;--line:#d7cebe;--deep:#2b2823;--on:#efe9de;--blue:#3f6ea8;--red:#b9544b;--green:#3c8a5b;color:var(--ink)}
-.app{box-shadow:0 1px 0 rgba(255,255,255,.06),0 34px 70px -34px rgba(0,0,0,.85)}
-.app-bar img{filter:none}
-.f.big{background:var(--card);border-color:var(--card)}
-.f.big p{color:var(--mute)}
-.packs div{background:var(--raise);border:1px solid var(--line)}
-.packs small{color:var(--mute)}
+/* the Smart Install tile and the closing band: the one dark surface */
+.f.big{background:var(--deep);color:var(--on);border-color:var(--deep)}
+.f.big p{color:rgba(250,249,245,.68)}
+.packs div{background:rgba(250,249,245,.05);border:1px solid rgba(250,249,245,.12)}
+.packs small{color:rgba(250,249,245,.55)}
+.packs .r{border-top:3px solid #d7262e}.packs .b{border-top:3px solid #1d6fe0}
+.band{background:var(--deep);border-top:0}
+.prog p i{background:linear-gradient(90deg,#d7262e,#1d6fe0)}
