@@ -1,7 +1,7 @@
 /* Code 3 Installer — download page (GitHub Pages). Shared by / (Arabic) and /en/ (English). */
 :root{
   --paper:#f5f4ee;--paper2:#ecebe2;--card:#ffffff;--raise:#faf9f5;--ink:#1f1e1b;--ink2:#3d3d3a;--mute:#73726c;--line:#e4e2d8;
-  --red:#b5533c;--blue:#c96442;--green:#4f7d5c;--deep:#30302e;--on:#faf9f5;--cta:#c96442;--cta-ink:#ffffff;--cta-edge:#a4502f;
+  --red:#d22f36;--blue:#1f63d6;--green:#3f7d55;--deep:#30302e;--on:#faf9f5;--cta:#1f63d6;--cta-ink:#ffffff;--cta-edge:#174da8;
   --warn-bg:#faf3e6;--warn-line:#ecdcc0;--warn-dot:#b06a1e;
   --r:14px;--sh:0 1px 2px rgba(31,30,27,.05),0 8px 24px -16px rgba(31,30,27,.22);
   --ar:"Tajawal","Segoe UI",Tahoma,sans-serif;--en:"Outfit","Segoe UI",system-ui,sans-serif
@@ -203,4 +203,14 @@ footer p{max-width:70ch}
 .packs small{color:rgba(250,249,245,.55)}
 .packs .r{border-top:3px solid #d7262e}.packs .b{border-top:3px solid #1d6fe0}
 .band{background:var(--deep);border-top:0}
-.prog p i{background:linear-gradient(90deg,#d7262e,#1d6fe0)}
+.prog p i{background:linear-gradient(90deg,var(--red),var(--blue))}
+/* police colours: blue leads, red answers */
+.steps li::before{color:var(--blue)}
+.steps li:nth-child(even)::before{color:var(--red)}
+.ghostb svg{color:var(--red)}
+.kicker i{background:var(--red);box-shadow:0 0 0 4px rgba(210,47,54,.15)}
+.f .ic{color:var(--blue)}
+.f:nth-child(odd) .ic{color:var(--red)}
+.latest .all{color:var(--blue)}
+.band .dl{background:#fff;color:var(--ink);box-shadow:0 2px 0 rgba(0,0,0,.35)}
+.band h2 em{font-style:normal;color:#7fa8f0}
