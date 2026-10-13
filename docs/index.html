@@ -4,13 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Code 3 Installer | تثبيت LSPDFR ومودات الشرطة لـ GTA V بضغطة</title>
-<meta name="description" content="برنامج مجاني لويندوز يثبّت LSPDFR ومودات وإضافات الشرطة وملفات OIV في GTA&nbsp;V بضغطة واحدة، مع فحص الكراش وكشف التعارضات وتحديث المودات. الإصدار 1.0.8.">
+<meta name="description" content="برنامج مجاني لويندوز يثبّت LSPDFR ومودات وإضافات الشرطة وملفات OIV في GTA V بضغطة واحدة، مع فحص الكراش وكشف التعارضات وتحديث المودات. الإصدار 1.0.8.">
 <meta name="keywords" content="LSPDFR, تثبيت LSPDFR, مودات الشرطة, مود الشرطة قراند 5, GTA V, قراند 5 مودات, LSPDFR installer, RagePluginHook, OIV, Code 3">
 <link rel="canonical" href="https://fal-studio.github.io/code3-download/">
 <link rel="alternate" hreflang="ar" href="https://fal-studio.github.io/code3-download/">
 <link rel="alternate" hreflang="en" href="https://fal-studio.github.io/code3-download/en/">
 <link rel="alternate" hreflang="x-default" href="https://fal-studio.github.io/code3-download/en/">
-<meta name="theme-color" content="#0e1116">
+<meta name="theme-color" content="#f5f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121417" media="(prefers-color-scheme: dark)">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Code 3 Installer">
@@ -24,10 +25,10 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="assets/logo.png">
-<script>(function(){var r=document.documentElement,t;try{t=localStorage.getItem('c3-shift')}catch(e){}r.dataset.theme=t||(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'night':'day')})()</script>
+<script>(function(){var r=document.documentElement,t;try{t=localStorage.getItem('c3-theme')}catch(e){}r.dataset.theme=t||(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'night':'day')})()</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap">
 <link rel="stylesheet" href="site.css?v=1.0.8">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Code 3 Installer","alternateName":"Code 3","url":"https://fal-studio.github.io/code3-download/","inLanguage":["ar","en"],
@@ -40,104 +41,108 @@
 </script>
 </head>
 <body>
-<div class="bar" aria-hidden="true"><i></i><i></i></div>
-
-<header class="hero">
-  <div class="ph"><img src="assets/hero-day.jpg" alt="سيارات شرطة لوس سانتوس في دورية نهارية" width="1800" height="600" fetchpriority="high"></div>
-  <div class="ph night"><img src="assets/hero-night.jpg" alt="سيارات شرطة لوس سانتوس في دورية ليلية" width="1800" height="600"></div>
-  <div class="wrap top">
-    <a class="brand" href="./"><img src="assets/logo-w.png" alt="Code 3" width="47" height="28"><b>Code 3 Installer</b></a>
-    <nav class="nav"><a href="#how">طريقة العمل</a><a href="#features">المزايا</a><a href="#latest">آخر تحديث</a><a href="#faq">الأسئلة</a></nav>
-    <div class="tools">
-      <button class="shift" type="button" aria-pressed="false" title="تبديل بين الوضع النهاري والليلي"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><span class="sun">نهاري</span><span class="moon">ليلي</span></button>
-      <a class="lang" href="en/" hreflang="en" lang="en">English</a>
-    </div>
-  </div>
-  <div class="wrap hero-in">
-    <h1>ثبّت LSPDFR ومودات الشرطة في GTA&nbsp;V بضغطة واحدة</h1>
-    <p>برنامج مجاني لويندوز يرتّب لك LSPDFR والإضافات والسيارات وملفات OIV في أماكنها الصحيحة، ويكشف التعارضات وأسباب الكراش قبل أن تبدأ دوريتك.</p>
-    <div class="cta">
-      <a class="dl" href="https://github.com/Fal-studio/code3-download/releases/latest/download/Code3-Setup.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>تحميل مجاني لويندوز</a>
-      <a class="dc" href="https://discord.gg/b6mxWC9jvs" rel="nofollow">انضم إلى مجتمع Code 3</a>
-    </div>
-    <p class="ver">الإصدار <b>1.0.8</b>، لـ Windows 10 و 11 ونسخة GTA V Legacy</p>
-  </div>
+<div class="siren"></div>
+<header class="wrap top">
+  <a class="brand" href="./"><img src="assets/mark.png" alt="Code 3" width="44" height="26"><b>Code 3 Installer</b></a>
+  <nav class="nav"><a href="#how">طريقة العمل</a><a href="#features">المزايا</a><a href="#latest">آخر تحديث</a><a href="#faq">الأسئلة</a></nav>
+  <button class="mode" type="button" aria-pressed="false" title="الوضع الليلي" aria-label="الوضع الليلي"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+  <a class="lang" href="en/" hreflang="en" lang="en">English</a>
 </header>
 
 <main>
-<section class="door" aria-label="عن البرنامج">
-  <div class="wrap dp">
-    <div><p class="lede">أكثر من 170 إضافة وسكربت وسيارة وملف OIV في مكان واحد. تختار ما تريد، والبرنامج ينسخ كل ملف إلى مكانه، ويثبّت المتطلبات الناقصة، ويحتفظ بنسخة من كل ما يستبدله حتى ترجع اللعبة كما كانت متى شئت.</p></div>
-    <div class="need">
-      <h2>ما تحتاجه</h2>
-      <ul><li>نسخة أصلية من GTA V Legacy، فالنسخة Enhanced غير مدعومة</li><li>Windows 10 أو Windows 11</li><li>حساب Discord في مجتمع Code 3</li><li>اتصال بالإنترنت أثناء تحميل المودات</li></ul>
-      <p>قد يظهر تحذير ويندوز عند أول تشغيل لأن ملف التثبيت غير موقّع رقميًا بعد. إذا حمّلته من هذه الصفحة اضغط <kbd>مزيد من المعلومات</kbd> ثم <kbd>تشغيل على أي حال</kbd>.</p>
+<div class="wrap hero">
+  <div>
+    <span class="kicker"><i></i>مجاني · الإصدار <span class="num">1.0.8</span></span>
+    <h1>ثبّت <em class="en">LSPDFR</em> ومودات الشرطة في GTA V بضغطة واحدة</h1>
+    <p class="lead">Code 3 Installer برنامج لويندوز يثبّت LSPDFR والإضافات والسيارات وملفات OIV بالترتيب الصحيح، ويكشف التعارضات وأسباب الكراش قبل أن تضيع وقتك في النسخ اليدوي.</p>
+    <div class="cta">
+      <a class="dl" href="https://github.com/Fal-studio/code3-download/releases/latest/download/Code3-Setup.exe" rel="nofollow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg><span><b>تحميل مجاني</b><small>Code3-Setup.exe · Windows 10 / 11</small></span></a>
+      <a class="ghostb" href="https://discord.gg/b6mxWC9jvs" rel="nofollow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"/><path d="M9 11h.01M12 11h.01M15 11h.01"/></svg>مجتمع Discord</a>
     </div>
+    <div class="facts"><span><b>+170</b> مود وإضافة</span><span>لـ <b>GTA V Legacy</b></span><span>عربي و <b>English</b></span></div>
   </div>
-  <div class="wrap steps" id="how">
-    <div class="in">
-      <h2>من التحميل إلى أول دورية</h2>
-      <ol>
-        <li><b>حمّل البرنامج</b><span>شغّل ملف Code3-Setup.exe وثبّته.</span></li>
-        <li><b>سجّل الدخول</b><span>بحساب Discord في مجتمع Code 3.</span></li>
-        <li><b>حدّد مجلد اللعبة</b><span>غالبًا يعثر عليه البرنامج وحده.</span></li>
-        <li><b>اختر وثبّت</b><span>اختر المودات بنفسك، أو استخدم التثبيت الذكي.</span></li>
-      </ol>
+
+  <div class="app" aria-hidden="true">
+    <div class="app-bar"><img src="assets/mark.png" alt=""><span>Code 3 Installer</span><span class="dots"><i></i><i></i><i></i></span></div>
+    <div class="app-body">
+      <div class="app-side"><span>التثبيت الذكي</span><span class="on">الإضافات</span><span>السيارات</span><span>ملفات OIV</span><span>فحص الكراش</span></div>
+      <div class="app-list">
+        <div class="row on"><span class="ck"></span><span class="th"></span><b>LSPD First Response</b><small class="ok">مثبّت</small></div>
+        <div class="row on"><span class="ck"></span><span class="th"></span><b>Policing Redefined</b><small>جديد</small></div>
+        <div class="row on"><span class="ck"></span><span class="th"></span><b>Emergency Lighting System</b><small>محدّث</small></div>
+        <div class="row"><span class="ck"></span><span class="th"></span><b>EUP Menu</b><small>إضافة</small></div>
+        <div class="prog"><div><span>جارٍ تثبيت 3 مودات…</span><b>64%</b></div><p><i></i></p></div>
+      </div>
     </div>
+    <div class="tag"><i>!</i><span>تعارض محلول تلقائيًا</span></div>
+  </div>
+</div>
+
+<div class="wrap strip">
+  <div><b>+170</b><span>إضافة وسكربت وسيارة وملف OIV</span></div>
+  <div><b>1</b><span>ضغطة للتثبيت الذكي الكامل</span></div>
+  <div><b>0</b><span>نسخ يدوي للملفات</span></div>
+  <div><b>v1.0.8</b><span>آخر إصدار، ويتحدّث البرنامج وحده</span></div>
+</div>
+
+<section id="how" class="wrap">
+  <div class="sh"><h2>من التحميل إلى أول دورية في أربع خطوات</h2><p>لا تحتاج إلى معرفة مكان كل ملف. البرنامج يرتّب كل شيء ويتحقق من المتطلبات قبل التثبيت.</p></div>
+  <ol class="steps">
+    <li><b>حمّل البرنامج</b><span>شغّل ملف Code3-Setup.exe وثبّته.</span></li>
+    <li><b>سجّل الدخول</b><span>بحساب Discord في مجتمع Code 3.</span></li>
+    <li><b>حدّد مجلد اللعبة</b><span>غالبًا يعثر عليه البرنامج وحده.</span></li>
+    <li><b>اختر وثبّت</b><span>اختر المودات بنفسك، أو استخدم التثبيت الذكي.</span></li>
+  </ol>
+</section>
+
+<section id="features" class="wrap">
+  <div class="sh"><h2>كل ما تحتاجه لتشغيل LSPDFR بدون صداع</h2><p>أدوات صُممت للمشاكل التي يواجهها كل من حاول تركيب مودات الشرطة يدويًا.</p></div>
+  <div class="feat">
+    <div class="f big">
+      <div><h3>التثبيت الذكي</h3><p>اختر نوع التجربة، والبرنامج يثبّت مجموعة مودات متوافقة مع متطلباتها، ومعها gameconfig وLenny's Mod Loader تلقائيًا حتى لا تتوقف اللعبة أثناء التحميل.</p></div>
+      <div class="packs"><div class="r"><b>الواقعية</b><small>تجربة دورية متكاملة</small></div><div class="b"><b>الكلاسيكية</b><small>مودات أقل لتجربة اللعبة</small></div></div>
+    </div>
+    <div class="f"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></span><h3>فحص الكراش</h3><p>يقرأ سجلات اللعبة وRagePluginHook ويخبرك بسبب التوقف وطريقة إصلاحه.</p></div>
+    <div class="f"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg></span><h3>كشف التعارضات</h3><p>ينبّهك للمودات المتعارضة والمتطلبات الناقصة قبل أن تثبّت.</p></div>
+    <div class="f wide"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8M4 4v4h4M4 13a8 8 0 0 0 14.3 4.9L20 16M20 20v-4h-4"/></svg></span><h3>تحديثات المودات</h3><p>يخبرك بالمودات التي صدرت لها نسخة جديدة، ويمكنك تحديثها كلها من داخل البرنامج.</p></div>
+    <div class="f wide"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 2.4-5.7L4 8.5M4 4v4.5h4.5"/></svg></span><h3>رجوع للعبة الأصلية</h3><p>يحتفظ بنسخة من كل ملف يستبدله، ويمكنك حذف مود واحد أو إرجاع اللعبة كما كانت.</p></div>
+    <div class="f"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></svg></span><h3>أزرار المودات</h3><p>اعرض أزرار كل مود وعدّلها من مكان واحد.</p></div>
+    <div class="f"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span><h3>تقييمات المجتمع</h3><p>اعرف أفضل المودات من تقييمات اللاعبين وتعليقاتهم.</p></div>
+    <div class="f"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg></span><h3>عربي و English</h3><p>واجهة كاملة باللغتين، مع ثلاثة ثيمات.</p></div>
   </div>
 </section>
 
-<section class="feat" id="features">
-  <div class="wrap">
-    <div class="side"><h2>كل ما تحتاجه لتشغيل LSPDFR بدون صداع</h2><p>أدوات صُممت للمشاكل التي يواجهها كل من حاول تركيب مودات الشرطة يدويًا.</p></div>
-    <dl>
-      <div class="lead"><dt>التثبيت الذكي</dt><dd>اختر نوع التجربة، والبرنامج يثبّت مجموعة مودات متوافقة مع متطلباتها، ومعها gameconfig وLenny's Mod Loader تلقائيًا حتى لا تتوقف اللعبة أثناء التحميل.</dd><dd class="packs"><span><i></i>الواقعية: دورية متكاملة</span><span><i></i>الكلاسيكية: مودات أقل لتجربة اللعبة</span></dd></div>
-      <div><dt>فحص الكراش</dt><dd>يقرأ سجلات اللعبة وRagePluginHook ويخبرك بسبب التوقف وطريقة إصلاحه.</dd></div>
-      <div><dt>كشف التعارضات</dt><dd>ينبّهك للمودات المتعارضة والمتطلبات الناقصة قبل أن تثبّت.</dd></div>
-      <div><dt>تحديثات المودات</dt><dd>يخبرك بالمودات التي صدرت لها نسخة جديدة، ويمكنك تحديثها كلها من داخل البرنامج.</dd></div>
-      <div><dt>رجوع للعبة الأصلية</dt><dd>يمكنك حذف مود واحد، أو إرجاع اللعبة كما كانت قبل أي تعديل.</dd></div>
-      <div><dt>أزرار المودات</dt><dd>اعرض أزرار كل مود وعدّلها من مكان واحد.</dd></div>
-      <div><dt>تقييمات المجتمع</dt><dd>اعرف أفضل المودات من تقييمات اللاعبين وتعليقاتهم.</dd></div>
-      <div><dt>عربي و English</dt><dd>واجهة كاملة باللغتين، مع ثلاثة ثيمات.</dd></div>
-      <div><dt>مجاني بالكامل</dt><dd>كل المودات الأساسية تُثبَّت بدون أي مقابل.</dd></div>
-    </dl>
+<section id="latest" class="wrap two">
+  <div class="latest">
+    <span class="v">v1.0.8 · October 2026</span>
+    <h3>واجهة التثبيت وإصلاح أزرار التحديد</h3>
+    
+    <ul><li><i class="new">جديد</i><span>البرنامج يفتح الآن على كامل الشاشة تلقائيًا</span></li><li><i class="new">جديد</i><span>الترتيب وخيار «يدعم العربية» صارا داخل زر واحد في رأس كل قسم</span></li><li><i class="imp">تحسين</i><span>رأس الأقسام أنظف وأقل ازدحامًا</span></li><li><i class="fix">إصلاح</i><span>أزرار التحديد (الكل، المطلوب، غير المثبّت، لا شيء) لم تكن تعمل</span></li><li><i class="fix">إصلاح</i><span>خطأ كان يعطّل عرض مود لا يحتوي على متطلبات</span></li></ul>
+    <a class="all" href="https://github.com/Fal-studio/code3-download/releases">كل الإصدارات ←</a>
   </div>
+  <a class="video" href="https://www.youtube.com/watch?v=fKrqtsRe19g&amp;t=36s" rel="nofollow"><img src="https://i.ytimg.com/vi/fKrqtsRe19g/hqdefault.jpg" alt="فيديو شرح Code 3 Installer" loading="lazy" width="480" height="360"><span><i><svg viewBox="0 0 24 24" fill="#fff"><path d="M7 4.5v15l12-7.5z"/></svg></i>شاهد البرنامج قبل التحميل</span></a>
 </section>
 
-<section class="latest" id="latest">
-  <div class="wrap">
-    <div>
-      <h2>آخر تحديث</h2>
-      <p class="v">الإصدار <b>1.0.8</b>، October 2026</p>
-      <h3>واجهة التثبيت وإصلاح أزرار التحديد</h3>
-      
-      <ul><li><i class="new">جديد</i><span>البرنامج يفتح الآن على كامل الشاشة تلقائيًا</span></li><li><i class="new">جديد</i><span>الترتيب وخيار «يدعم العربية» صارا داخل زر واحد في رأس كل قسم</span></li><li><i class="imp">تحسين</i><span>رأس الأقسام أنظف وأقل ازدحامًا</span></li><li><i class="fix">إصلاح</i><span>أزرار التحديد (الكل، المطلوب، غير المثبّت، لا شيء) لم تكن تعمل</span></li><li><i class="fix">إصلاح</i><span>خطأ كان يعطّل عرض مود لا يحتوي على متطلبات</span></li></ul>
-      <a class="all" href="https://github.com/Fal-studio/code3-download/releases">كل الإصدارات</a>
-    </div>
-    <a class="video" href="https://www.youtube.com/watch?v=fKrqtsRe19g&amp;t=36s" rel="nofollow"><img src="https://i.ytimg.com/vi/fKrqtsRe19g/hqdefault.jpg" alt="فيديو شرح Code 3 Installer" loading="lazy" width="480" height="360"><span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15l12-7.5z"/></svg>شاهد البرنامج قبل التحميل</span></a>
-  </div>
+<section class="wrap req">
+  <div><h3>المتطلبات</h3><ul><li>نسخة أصلية من GTA V Legacy (النسخة Enhanced غير مدعومة)</li><li>Windows 10 أو Windows 11</li><li>حساب Discord في مجتمع Code 3</li><li>اتصال بالإنترنت أثناء تحميل المودات</li></ul></div>
+  <div class="warn"><h3>عند أول تشغيل</h3><ul><li>قد يظهر تحذير ويندوز لأن ملف التثبيت غير موقّع رقميًا بعد.</li><li>إذا حمّلته من هذه الصفحة اضغط <kbd>مزيد من المعلومات</kbd> ثم <kbd>تشغيل على أي حال</kbd>.</li><li>لا تغلق البرنامج أثناء التحميل أو التثبيت.</li></ul></div>
 </section>
 
-<section class="faq" id="faq">
-  <div class="wrap">
-    <h2>أسئلة شائعة</h2>
-    <div class="list">
-      <details><summary>هل البرنامج مجاني؟</summary><p>نعم، Code 3 Installer مجاني بالكامل، وكل المودات الأساسية تُثبَّت بدون أي مقابل.</p></details>
-      <details><summary>هل يعمل مع GTA V Enhanced؟</summary><p>لا، البرنامج يدعم GTA V Legacy فقط، لأن LSPDFR وRagePluginHook يعملان عليها.</p></details>
-      <details><summary>لماذا يطلب تسجيل الدخول بـ Discord؟</summary><p>البرنامج مخصص لأعضاء مجتمع Code 3، ومن خلال السيرفر تصلك الأخبار والدعم والتحديثات.</p></details>
-      <details><summary>هل يغيّر ملفات اللعبة الأصلية؟</summary><p>يحتفظ بنسخة من كل ملف يستبدله، ويمكنك حذف أي مود أو إرجاع اللعبة لحالتها الأصلية من داخل البرنامج.</p></details>
-      <details><summary>اللعبة تتوقف بعد التثبيت، ماذا أفعل؟</summary><p>افتح فحص الكراش في البرنامج؛ فهو يقرأ السجلات ويخبرك بالسبب وطريقة الإصلاح، ومعظم المشاكل تُحل بضغطة.</p></details>
-      <details><summary>لمن حقوق المودات؟</summary><p>كل مود ملك لصانعه، وروابط صفحاته الأصلية موجودة داخل البرنامج. Code 3 Installer يسهّل التثبيت فقط.</p></details>
-    </div>
+<section id="faq" class="wrap">
+  <div class="sh"><h2>أسئلة شائعة</h2></div>
+  <div class="faq">
+    <details open><summary>هل البرنامج مجاني؟</summary><p>نعم، Code 3 Installer مجاني بالكامل، وكل المودات الأساسية تُثبَّت بدون أي مقابل.</p></details>
+    <details><summary>هل يعمل مع GTA V Enhanced؟</summary><p>لا، البرنامج يدعم GTA V Legacy فقط، لأن LSPDFR وRagePluginHook يعملان عليها.</p></details>
+    <details><summary>لماذا يطلب تسجيل الدخول بـ Discord؟</summary><p>البرنامج مخصص لأعضاء مجتمع Code 3، ومن خلال السيرفر تصلك الأخبار والدعم والتحديثات.</p></details>
+    <details><summary>هل يغيّر ملفات اللعبة الأصلية؟</summary><p>يحتفظ بنسخة من كل ملف يستبدله، ويمكنك حذف أي مود أو إرجاع اللعبة لحالتها الأصلية من داخل البرنامج.</p></details>
+    <details><summary>اللعبة تتوقف بعد التثبيت، ماذا أفعل؟</summary><p>افتح فحص الكراش في البرنامج؛ فهو يقرأ السجلات ويخبرك بالسبب وطريقة الإصلاح، ومعظم المشاكل تُحل بضغطة.</p></details>
+    <details><summary>لمن حقوق المودات؟</summary><p>كل مود ملك لصانعه، وروابط صفحاته الأصلية موجودة داخل البرنامج. Code 3 Installer يسهّل التثبيت فقط.</p></details>
   </div>
 </section>
 </main>
 
-<section class="end">
-  <img src="assets/coast.jpg" alt="" loading="lazy" width="1800" height="675">
-  <div class="wrap"><h2>جاهز لأول دورية؟ حمّل البرنامج الآن.</h2><a class="dl" href="https://github.com/Fal-studio/code3-download/releases/latest/download/Code3-Setup.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>تحميل مجاني</a></div>
-</section>
+<div class="band"><div class="wrap"><h2>جاهز لأول دورية؟ حمّل البرنامج الآن.</h2><a class="dl" href="https://github.com/Fal-studio/code3-download/releases/latest/download/Code3-Setup.exe" rel="nofollow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg><span><b>تحميل مجاني</b><small>v1.0.8 · Windows</small></span></a></div></div>
 <footer><div class="wrap"><p>© fal-studio. البرنامج لتثبيت المودات على نسخة تملكها من GTA V، ولا يوزّع ملفات اللعبة. Code 3 Installer غير تابع لـ Rockstar Games أو LSPDFR.</p><nav><a href="https://github.com/Fal-studio/code3-download">GitHub</a><a href="https://discord.gg/b6mxWC9jvs" rel="nofollow">Discord</a><a href="https://www.youtube.com/watch?v=fKrqtsRe19g&amp;t=36s" rel="nofollow">YouTube</a></nav></div></footer>
-<script>(function(){var b=document.querySelector('.shift'),r=document.documentElement,bar=document.querySelector('.bar');function s(){b.setAttribute('aria-pressed',r.dataset.theme==='night'?'true':'false')}s();b.addEventListener('click',function(){var n=r.dataset.theme==='night'?'day':'night';r.dataset.theme=n;try{localStorage.setItem('c3-shift',n)}catch(e){}s();bar.classList.remove('flash');void bar.offsetWidth;bar.classList.add('flash')})})()</script>
+<script>(function(){var b=document.querySelector('.mode'),r=document.documentElement;function s(){var n=r.dataset.theme==='night';b.setAttribute('aria-pressed',n?'true':'false')}s();b.addEventListener('click',function(){var n=r.dataset.theme==='night'?'day':'night';r.dataset.theme=n;try{localStorage.setItem('c3-theme',n)}catch(e){}s()})})()</script>
 </body>
 </html>
