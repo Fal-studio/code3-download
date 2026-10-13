@@ -235,3 +235,17 @@ footer p{max-width:70ch}
 @media (max-width:960px){.mode{margin-inline-start:auto}.mode+.lang{margin-inline-start:-18px}}
 @media (prefers-reduced-motion:reduce){body{transition:none}}
 :root[data-theme=night] .band .dl{color:#16191e}
+/* latest update and video: one height */
+.two{align-items:stretch}
+.two .video{aspect-ratio:auto;height:100%;min-height:300px}
+@media (max-width:960px){.two .video{aspect-ratio:16/9;height:auto;min-height:0}}
+/* questions in the middle */
+#faq .sh{justify-content:center;text-align:center}
+#faq .faq{margin-inline:auto}
+/* channels as icons */
+footer nav{gap:10px;align-items:center}
+footer nav a{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--mute);font-size:17px;text-decoration:none;transition:color .15s,border-color .15s}
+footer nav a:hover{color:var(--ink);border-color:var(--ink)}
+footer nav a.yt:hover{color:#e62117;border-color:#e62117}
+footer nav a.dc:hover{color:#5865f2;border-color:#5865f2}
+footer .wrap{align-items:center}
