@@ -28,8 +28,8 @@
   // what each tab holds: [name, badge, colour, checked, installed, size MB]
   var D = [
     { pick: 1, rows: en
-      ? [['Realistic', '17 add-ons', 'red', 1, 0, 2140], ['Classic', '6 add-ons', 'blue', 0, 0, 610], ['Arabic', '17 add-ons', 'green', 0, 0, 2380]]
-      : [['الواقعية', '17 إضافة', 'red', 1, 0, 2140], ['الكلاسيكية', '6 إضافات', 'blue', 0, 0, 610], ['العربية', '17 إضافة', 'green', 0, 0, 2380]] },
+      ? [['Realistic', '20 add-ons', 'red', 1, 0, 2140], ['Classic', '8 add-ons', 'blue', 0, 0, 610], ['Arabic', '19 add-ons', 'green', 0, 0, 2380]]
+      : [['الواقعية', '20 إضافة', 'red', 1, 0, 2140], ['الكلاسيكية', '8 إضافات', 'blue', 0, 0, 610], ['العربية', '19 إضافة', 'green', 0, 0, 2380]] },
     { rows: [['LSPD First Response', '', 'blue', 1, 1], ['Policing Redefined', en ? 'New' : 'جديد', 'red', 1, 0, 186], ['Emergency Lighting System', en ? 'Updated' : 'محدّث', 'green', 1, 0, 24], ['EUP Menu', en ? 'Plugin' : 'إضافة', 'gray', 0, 0, 12]] },
     { rows: [['LSPD Explorer 2020', 'ELS', 'night', 1, 0, 148], ['LSPD Charger 2018', 'ELS', 'blue', 0, 0, 131], ['Highway Patrol Tahoe', 'ELS', 'sand', 1, 0, 162], ['K9 Unit Durango', 'ELS', 'gray', 0, 0, 119]] },
     { rows: [['Realistic Sirens', 'OIV', 'red', 1, 0, 38], ['Police Lights Remastered', 'OIV', 'plum', 0, 0, 22], ['Better Road Textures', 'OIV', 'teal', 0, 0, 410], ['Radio Chatter Pack', 'OIV', 'gray', 1, 0, 64]] },
