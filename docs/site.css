@@ -258,3 +258,25 @@ footer .wrap{align-items:center}
 .f.big::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(22,22,21,.9) 0%,rgba(22,22,21,.55) 42%,rgba(22,22,21,.35) 62%,rgba(22,22,21,.88) 100%)}
 .f.big p{color:rgba(250,249,245,.8)}
 .packs div{background:rgba(22,22,21,.62);border-color:rgba(250,249,245,.16);box-shadow:0 8px 20px -10px rgba(0,0,0,.6)}
+/* the app preview works: tabs, check boxes and the install button */
+.app-side button,.app .row,.app .prog{font:inherit;color:inherit;text-align:start;border:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.app-side button{padding:6px 10px;border-radius:7px;background:none;color:var(--mute);transition:background .15s,color .15s}
+.app-side button:hover{color:var(--ink);background:rgba(0,0,0,.035)}
+.app-side button.on{background:var(--card);color:var(--ink);font-weight:700;box-shadow:var(--sh)}
+.app .row{width:100%;border:1px solid var(--line);transition:border-color .15s,transform .1s}
+.app .row:not(:disabled):hover{border-color:var(--mute)}
+.app .row:not(:disabled):active{transform:scale(.99)}
+.app .row:disabled{cursor:default;color:inherit}
+.app .row .ck{transition:background-color .15s,border-color .15s}
+.app .row.rad .ck{border-radius:50%}
+.app .row.rad.on .ck{background:var(--card);border:5px solid var(--deep)}
+.app .row.log .ck{display:none}.app .row.log{grid-template-columns:34px minmax(0,1fr) auto}
+.app .row small:empty{display:none}
+.app .prog{display:block;width:100%;color:var(--on);font-size:12.5px}
+.app .prog:not(:disabled):hover{box-shadow:0 0 0 3px rgba(31,99,214,.25)}
+.app .prog:disabled{cursor:default;opacity:.55}
+.app .prog.run,.app .prog.done{opacity:1}
+.app .prog p i{transition:width .14s linear}
+.app .prog.done p i{background:var(--green)}
+.tag{opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s}.tag.show{opacity:1;transform:none}
+:root[data-theme=night] .app-side button:hover{background:rgba(255,255,255,.05)}
