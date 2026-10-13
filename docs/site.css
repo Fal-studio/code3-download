@@ -259,7 +259,7 @@ footer .wrap{align-items:center}
 .f.big p{color:rgba(250,249,245,.8)}
 .packs div{background:rgba(22,22,21,.62);border-color:rgba(250,249,245,.16);box-shadow:0 8px 20px -10px rgba(0,0,0,.6)}
 /* the app preview works: tabs, check boxes and the install button */
-.app-side button,.app .row,.app .prog{font:inherit;color:inherit;text-align:start;border:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.app-side button,.app .row,.app .go{font:inherit;color:inherit;text-align:start;border:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .app-side button{padding:6px 10px;border-radius:7px;background:none;color:var(--mute);transition:background .15s,color .15s}
 .app-side button:hover{color:var(--ink);background:rgba(0,0,0,.035)}
 .app-side button.on{background:var(--card);color:var(--ink);font-weight:700;box-shadow:var(--sh)}
@@ -272,11 +272,25 @@ footer .wrap{align-items:center}
 .app .row.rad.on .ck{background:var(--card);border:5px solid var(--deep)}
 .app .row.log .ck{display:none}.app .row.log{grid-template-columns:34px minmax(0,1fr) auto}
 .app .row small:empty{display:none}
-.app .prog{display:block;width:100%;color:var(--on);font-size:12.5px}
-.app .prog:not(:disabled):hover{box-shadow:0 0 0 3px rgba(31,99,214,.25)}
-.app .prog:disabled{cursor:default;opacity:.55}
-.app .prog.run,.app .prog.done{opacity:1}
-.app .prog p i{transition:width .14s linear}
 .app .prog.done p i{background:var(--green)}
-.tag{opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s}.tag.show{opacity:1;transform:none}
+.tag{opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s;pointer-events:none}.tag.show{opacity:1;transform:none}
+/* sits above the install area, never over its button */
+.app .tag{bottom:94px}
 :root[data-theme=night] .app-side button:hover{background:rgba(255,255,255,.05)}
+/* the install area of the preview: a real button, then the story (check → download → install → done) */
+.app .prog div{align-items:center;gap:12px;min-height:34px}
+.app .prog div>span{display:grid;gap:3px;min-width:0}
+.app .prog em{font-style:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.app .prog div>span small{font:500 11px var(--en);color:rgba(250,249,245,.55);direction:ltr;text-align:start}
+[dir=rtl] .app .prog div>span small{text-align:right}
+.app .prog .pc{font:700 13px var(--en);flex:none}
+.app .go{flex:none;display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 16px;border-radius:9px;background:var(--cta);color:#fff;font-weight:700;font-size:13px;box-shadow:0 2px 0 var(--cta-edge),0 6px 14px -6px rgba(31,99,214,.6);transition:transform .1s,filter .15s}
+.app .go svg{width:15px;height:15px}
+.app .go:hover{filter:brightness(1.08)}
+.app .go:active{transform:translateY(1px);box-shadow:0 1px 0 var(--cta-edge)}
+.app .go:disabled{cursor:default;background:rgba(250,249,245,.12);color:rgba(250,249,245,.45);box-shadow:none;filter:none}
+.app .prog p i{transition:width .11s linear}
+.app .row small.st{color:var(--mute)}
+.app .row small.dn{color:var(--blue);background:rgba(31,99,214,.1);font-family:var(--en);font-weight:700}
+.app .row small.cp{color:#a86a12;background:rgba(214,150,40,.14)}
+.app .row.hot{border-color:var(--blue)}
