@@ -294,3 +294,8 @@ footer .wrap{align-items:center}
 .app .row small.dn{color:var(--blue);background:rgba(31,99,214,.1);font-family:var(--en);font-weight:700}
 .app .row small.cp{color:#a86a12;background:rgba(214,150,40,.14)}
 .app .row.hot{border-color:var(--blue)}
+/* the preview says plainly that it is only an example of the app */
+.app-bar .demo-pill{margin-inline-start:auto;padding:3px 10px;border-radius:999px;background:rgba(214,150,40,.14);color:#9a6210;font:700 11px var(--ar);letter-spacing:0}
+[lang=en] .app-bar .demo-pill{font-family:var(--en)}
+.app-bar .demo-pill+.dots{margin-inline-start:12px}
+:root[data-theme=night] .app-bar .demo-pill{color:#e0a84a;background:rgba(224,168,74,.12)}
