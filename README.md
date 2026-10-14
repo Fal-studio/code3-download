@@ -54,27 +54,36 @@
 
 <div dir="rtl">
 
-### آخر تحديث: v1.0.8
+### آخر تحديث: v1.0.9
 
-**واجهة التثبيت وإصلاح أزرار التحديد**
+**تحديث Code 3 Installer 1.0.9 مع هواتف AI و K9 وتعديلات واقعية**
 
-يحسّن هذا التحديث واجهة التثبيت: فتح البرنامج على كامل الشاشة، وجمع الترتيب وخيار «يدعم العربية» في زر واحد، مع إصلاح أزرار التحديد وتبويبات الاستديو.
+يضيف هذا التحديث مجموعة ضخمة من المودات والإضافات الجديدة تشمل نظام الهاتف الذكي بالذكاء الاصطناعي، وحدات الكلاب البوليسية K9، وتحسينات الواقعية للأسلحة والمركبات.
+
+**مودات جديدة**
+
+- **10-21 Officer's Phone**: هاتف للشرطي داخل اللعبة يتصل منه بالمشرف وسيارة الأجرة وخدمة السحب ويحادثهم بصوته، فيردّون عليه بالذكاء الاصطناعي
+- **100% Save Game**: حفظ للقصة مختومة 100%: كل المهمات بالذهبي، وكل العقارات، ومليارات في الحساب
+- **Add-On Vehicle Spawner**: قائمة تعرض السيارات المضافة لتستدعيها بسهولة
+- **AdvanceK9**: كلب بوليسي متكامل مع أوامر صوتية بالذكاء الاصطناعي
+- **Baton Window Action**: كسر نافذة السيارة المتوقفة بالعصا
+- **MCCallouts**: حزمة بلاغات جديدة بمواقع وتفاصيل متنوعة
+- **pdComp Modern UI Pack**: واجهة حديثة لجهاز pdComp بإطارات وأيقونات جديدة
+- **RealismScript - HUD**: واجهة لعب جديدة بتصميم أجمل وأوضح للفلوس والصحة والدرع والأسلحة والذخيرة، بدلًا من واجهة اللعبة الأصلية
+- **Realistic Weapon Behavior**: حركات واقعية للوقوف والجري بالسلاح، وأنماط إطلاق وسعة مخازن واقعية، ومدى أطول لكشاف السلاح، وإطلاق النار من المركبة بالبنادق والرشاشات. ليعمل الكشاف مع LSPDFR اجعل Ambient.DisablePlayerFlashlightOverride على false في lspdfr.ini
+- **Realistic Weapon Behavior — Uninstall**: حزمة إلغاء تثبيت تعديلات السلوك الواقعي للأسلحة وإعادة الملفات للأصلية.
+- **Satellite Radar Map**: يغيّر الخريطة الصغيرة وخريطة الإيقاف (Esc) إلى صور أقمار صناعية عالية الدقة، وملف الإزالة يعيد الخريطة الأصلية
+- **Satellite Radar Map — Uninstall**: حزمة إلغاء تثبيت خريطة الأقمار الصناعية لاستعادة خريطة اللعبة الأصلية.
+- **Saudi Police Siren Sounds**: أصوات سرينات الشرطة السعودية لجميع سيارات الشرطة في اللعبة. يستبدل ملف RESIDENT.rpf في مجلد mods، وملف الإزالة يعيد الأصوات الأصلية
+- **SirenSetting Limit Adjuster**: يرفع حد أضواء الطوارئ في السيارات ويقلل تعارض إضاءاتها
+- **TaserBarbsSP**: إبر التيزر تخرج وتعلق بالمشتبه به
+- **Vibe Dispatch**: بلاغات عشوائية تقبلها من الإشعارات مع قائمة دعم
 
 **جديد**
 
-- البرنامج يفتح الآن على كامل الشاشة تلقائيًا
-- الترتيب وخيار «يدعم العربية» صارا داخل زر واحد في رأس كل قسم
-
-**تحسينات**
-
-- رأس الأقسام أنظف وأقل ازدحامًا
-- شريط تبويبات الاستديو يتمرر أفقيًا في النوافذ الصغيرة ويُظهر التبويب المحدد
-
-**إصلاحات**
-
-- أزرار التحديد (الكل، المطلوب، غير المثبّت، لا شيء) لم تكن تعمل
-- خطأ كان يعطّل عرض مود لا يحتوي على متطلبات
-- بعض تبويبات الاستديو كانت تختفي في النوافذ الصغيرة
+- إضافة تصميم واجهة جديد كلياً ومطور ليكون أكثر سهولة وجاذبية.
+- إضافة مجموعة ضخمة من المودات والإضافات الجديدة المطلوبة لـ LSPDFR.
+- التعريب قيد التطوير حالياً وسيتم الانتهاء منه وإطلاقه قريباً جداً.
 
 </div>
 
@@ -142,27 +151,36 @@ Installing police mods by hand takes hours of searching, downloading and placing
 
 <!-- LATEST_EN:START -->
 
-### Latest update: v1.0.8
+### Latest update: v1.0.9
 
-**Install View and Selection Buttons Fix**
+**Code 3 Installer 1.0.9: AI Phone, K9 & Realism Mods**
 
-This update improves the install view: the app opens full screen, sorting and the “supports Arabic” option are merged into a single button, plus fixes for the selection buttons and the Studio tabs.
+This update brings a massive wave of new mods including the AI officer's phone, AdvanceK9 companion, and comprehensive weapon and realism enhancements.
+
+**New mods**
+
+- **10-21 Officer's Phone**: An in-game officer's phone: call your supervisor, a taxi or a tow and talk to them with your own voice, they answer with AI
+- **100% Save Game**: A 100% completed story save: every mission on gold, every property owned, billions in the bank
+- **Add-On Vehicle Spawner**: Menu that lists your add-on cars so you can spawn them
+- **AdvanceK9**: Full K9 police dog with AI voice commands
+- **Baton Window Action**: Break a stopped car's window with your baton
+- **MCCallouts**: Callout pack with varied scenarios and locations
+- **pdComp Modern UI Pack**: Modern look for pdComp with new bezels and icons
+- **RealismScript - HUD**: A new, cleaner in-game HUD for money, health, armour, weapons and ammo, replacing the original game HUD
+- **Realistic Weapon Behavior**: Realistic idle and running weapon animations, realistic fire modes and magazine sizes, a longer flashlight reach, and firing rifles and SMGs from vehicles. For the flashlight to work with LSPDFR, set Ambient.DisablePlayerFlashlightOverride to false in lspdfr.ini
+- **Realistic Weapon Behavior — Uninstall**: Uninstall package to revert Realistic Weapon Behavior changes back to default.
+- **Satellite Radar Map**: Turns the radar and the pause-menu (Esc) map into high-resolution satellite imagery; the uninstall package brings the original map back
+- **Satellite Radar Map — Uninstall**: Uninstall package to restore the original game radar and pause-menu map.
+- **Saudi Police Siren Sounds**: Saudi police siren sounds for every police vehicle in the game. Replaces RESIDENT.rpf in the mods folder; the uninstall package brings the original sounds back
+- **SirenSetting Limit Adjuster**: Raises the emergency light limits and reduces light clashes between car mods
+- **TaserBarbsSP**: Taser fires visible electrode barbs
+- **Vibe Dispatch**: Random callouts you accept from notifications, with a backup menu
 
 **New**
 
-- The app now opens full screen automatically
-- Sorting and the “supports Arabic” option now live inside a single button in each section header
-
-**Improvements**
-
-- Section headers are cleaner and less crowded
-- The Studio tab bar scrolls horizontally in small windows and keeps the selected tab in view
-
-**Fixes**
-
-- The selection buttons (All, Required, Not installed, None) were not working
-- An error that broke the display of a mod with no requirements
-- Some Studio tabs were disappearing in small windows
+- Added a brand new, revamped user interface designed for a smoother experience.
+- Integrated a wide selection of new, highly requested mods and plugins for LSPDFR.
+- Arabic localization is currently under development and will be completed soon.
 
 <!-- LATEST_EN:END -->
 
