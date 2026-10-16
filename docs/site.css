@@ -1,4 +1,4 @@
-/* Code 3 Installer — download page (GitHub Pages). Shared by / (Arabic) and /en/ (English). */
+/* Code 3 — download page (GitHub Pages). Shared by / (Arabic) and /en/ (English). */
 :root{
   --paper:#f5f4ee;--paper2:#ecebe2;--card:#ffffff;--raise:#faf9f5;--ink:#1f1e1b;--ink2:#3d3d3a;--mute:#73726c;--line:#e4e2d8;
   --red:#d22f36;--blue:#1f63d6;--green:#3f7d55;--deep:#30302e;--on:#faf9f5;--cta:#1f63d6;--cta-ink:#ffffff;--cta-edge:#174da8;
@@ -299,3 +299,72 @@ footer .wrap{align-items:center}
 [lang=en] .app-bar .demo-pill{font-family:var(--en)}
 .app-bar .demo-pill+.dots{margin-inline-start:12px}
 :root[data-theme=night] .app-bar .demo-pill{color:#e0a84a;background:rgba(224,168,74,.12)}
+/* Smart Install: the third pack (Arabic) */
+:root{--sa:#0e7a43}
+:root[data-theme=night]{--sa:#43b37a}
+.packs{grid-template-columns:repeat(3,minmax(0,1fr))}
+.packs .g{border-top:3px solid #12925a}
+/* mods library: one big tile, then even cards, then the way into the app */
+.lib{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.m{display:flex;flex-direction:column;min-width:0;border-radius:var(--r);background:var(--card);border:1px solid var(--line);box-shadow:var(--sh);overflow:hidden;transition:transform .18s,box-shadow .18s,border-color .18s}
+.m:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--line),var(--mute) 35%);box-shadow:0 1px 2px rgba(31,30,27,.06),0 16px 30px -18px rgba(31,30,27,.35)}
+.m img{width:100%;aspect-ratio:16/10;height:auto;object-fit:cover;background:var(--paper2);border-bottom:1px solid var(--line)}
+.mt{display:flex;flex-direction:column;gap:6px;flex:1;padding:14px 16px 16px}
+.mh{display:flex;flex-wrap:wrap;gap:6px}
+.mc,.ma{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:6px;font-size:12px;font-weight:700;line-height:1}
+.mc{color:var(--mute);background:var(--paper);border:1px solid var(--line)}
+.ma{color:var(--sa);background:color-mix(in srgb,var(--sa) 11%,transparent)}
+.m h3{font-size:16.5px;line-height:1.35;font-weight:700;margin-top:2px}
+.m p{font-size:14px;line-height:1.6;color:var(--mute);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.m small{display:flex;flex-wrap:wrap;align-items:center;gap:2px 14px;margin-top:auto;padding-top:8px;font-size:12.5px;color:var(--mute)}
+.m small b{color:var(--ink2);font-weight:600}
+.lib .m:first-child{grid-column:span 2;grid-row:span 2;position:relative;isolation:isolate;min-height:420px;border-color:var(--deep);background:var(--deep)}
+.lib .m:first-child img{position:absolute;inset:0;height:100%;aspect-ratio:auto;border:0;z-index:-2;object-position:12% 50%}
+.lib .m:first-child::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(18,19,21,0) 34%,rgba(18,19,21,.74) 62%,rgba(18,19,21,.94) 100%)}
+.lib .m:first-child .mt{justify-content:flex-end;flex:1;padding:24px 26px;color:#faf9f5}
+.lib .m:first-child h3{font-size:26px}
+.lib .m:first-child p{color:rgba(250,249,245,.78);font-size:15.5px;max-width:46ch}
+.lib .m:first-child small{flex:none;margin-top:4px;color:rgba(250,249,245,.6)}
+.lib .m:first-child small b{color:#faf9f5}
+.lib .m:first-child .mc{color:#faf9f5;background:rgba(250,249,245,.12);border-color:rgba(250,249,245,.2)}
+.lib .m:first-child .ma{color:#7fe0ab;background:rgba(67,179,122,.18)}
+.m.more{justify-content:center;gap:6px;padding:24px;text-decoration:none;background:var(--deep);border-color:var(--deep);color:#faf9f5}
+.m.more b{font:700 40px/1 var(--en);letter-spacing:-1px}
+.m.more span{font-size:15px;color:rgba(250,249,245,.72)}
+.m.more em{font-style:normal;font-weight:700;font-size:14.5px;margin-top:10px;color:#8fb4f5}
+:root[data-theme=night] .m.more,:root[data-theme=night] .lib .m:first-child{border-color:var(--line)}
+:root[data-theme=night] .m:hover{box-shadow:0 1px 2px rgba(0,0,0,.4),0 18px 32px -18px rgba(0,0,0,.8)}
+/* the Arabic edition */
+.arx{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:48px;align-items:center;padding:44px 48px;border-radius:20px;background:var(--card);border:1px solid var(--line);border-top:3px solid var(--sa);box-shadow:var(--sh)}
+.arx .kicker i{background:var(--sa);box-shadow:0 0 0 4px color-mix(in srgb,var(--sa) 18%,transparent)}
+.arx h2{margin:10px 0 12px}
+.arx h2 em{font-style:normal;color:var(--sa)}
+.arx-t>p{color:var(--ink2);max-width:52ch}
+.arx-c{display:grid;gap:10px;margin-top:24px}
+.arx-c li{list-style:none;display:grid;grid-template-columns:118px minmax(0,1fr);align-items:center;gap:14px;font-size:15px;color:var(--mute)}
+.arx-c b{display:flex;align-items:center;justify-content:center;height:32px;padding:0 10px;border-radius:8px;background:var(--paper);border:1px solid var(--line);color:var(--ink);font:700 13.5px var(--en)}
+.arx-i{position:relative;padding-bottom:12%}
+.arx-i img{width:72%;height:auto;margin-inline-start:auto;aspect-ratio:4/5;object-fit:cover;border-radius:14px;box-shadow:0 2px 4px rgba(0,0,0,.08),0 24px 40px -24px rgba(0,0,0,.55)}
+.arx-i img.sm{position:absolute;inset-inline-start:0;bottom:0;width:58%;aspect-ratio:16/10;border-radius:12px;border:4px solid var(--card)}
+@media (max-width:960px){
+  .lib{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .lib .m:first-child{grid-row:auto;min-height:360px}
+  .arx{grid-template-columns:1fr;gap:32px;padding:32px 28px}
+  .arx-i{max-width:440px}
+}
+@media (max-width:560px){
+  .packs{grid-template-columns:1fr}
+  .lib{grid-template-columns:1fr}
+  .lib .m:first-child{grid-column:auto;min-height:340px}
+  .lib .m:first-child h3{font-size:22px}
+  .lib .m:first-child img{object-position:0 50%}
+  .lib .m:not(:first-child):not(.more){flex-direction:row}
+  .lib .m:not(:first-child):not(.more) img{width:36%;flex:none;aspect-ratio:auto;height:auto;min-height:100%;border-bottom:0;border-inline-end:1px solid var(--line)}
+  .lib .m:not(:first-child):not(.more) .mt{padding:12px 14px;gap:4px}
+  .lib .m:not(:first-child):not(.more) h3{font-size:15.5px}
+  .lib .m:not(:first-child):not(.more) p{font-size:13.5px}
+  .arx{padding:26px 20px}
+  .arx-c li{grid-template-columns:1fr;gap:4px}
+  .arx-c b{justify-content:flex-start;width:max-content}
+}
+@media (prefers-reduced-motion:reduce){.m{transition:none}.m:hover{transform:none}}
