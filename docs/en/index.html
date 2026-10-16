@@ -31,7 +31,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
-<link rel="stylesheet" href="../site.css?v=1cbdd02185">
+<link rel="stylesheet" href="../site.css?v=2f0727fc94">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Code 3","alternateName":"Code 3 Installer","url":"https://fal-studio.github.io/code3-download/en/","inLanguage":["en","ar"],
 "description":"Free Windows app that installs LSPDFR, police mods and OIV packages for GTA V Legacy in one click, with crash checks and conflict detection.",
@@ -115,6 +115,16 @@
   </div>
 </section>
 
+<section id="shots" class="wrap">
+  <div class="sh"><h2>The real app, no mockups</h2><p>Screenshots of Code 3 as it looks on your PC. The big one follows the page's light and dark mode.</p></div>
+  <figure class="shot-main"><img class="day" src="../assets/shots/home.webp" alt="Code 3 home screen" width="1600" height="900" loading="lazy" decoding="async"><img class="night" src="../assets/shots/dark.webp" alt="Code 3 in the dark theme" width="1600" height="900" loading="lazy" decoding="async"></figure>
+  <div class="shot-row">
+    <figure class="shot"><div class="shot-i"><img src="../assets/shots/smart.webp" alt="Smart Install window" width="896" height="444" loading="lazy" decoding="async"></div><figcaption><b>Smart Install</b><span>Pick a kind of game, see every mod before it installs, and untick what you don't want.</span></figcaption></figure>
+    <figure class="shot"><div class="shot-i"><img src="../assets/shots/keys.webp" alt="Mod keys editor" width="1100" height="786" loading="lazy" decoding="async"></div><figcaption><b>Mod keys</b><span>A keyboard that shows every mod's keys, finds the clashing ones and fixes them.</span></figcaption></figure>
+    <figure class="shot"><div class="shot-i"><img src="../assets/shots/crash.webp" alt="Last run analysis" width="990" height="276" loading="lazy" decoding="async"></div><figcaption><b>Last run analysis</b><span>Reads the game logs; type the error code you saw and it gives you the fix.</span></figcaption></figure>
+  </div>
+</section>
+
 <section id="mods" class="wrap">
   <div class="sh"><h2>Mods you know, with their pictures and the people who made them</h2><p>From the app's library: every mod installs with its requirements, and we credit its author and translator.</p></div>
   <div class="lib">
@@ -181,7 +191,7 @@
 
 <div class="band"><div class="wrap"><h2>Ready for your first patrol? Download the app now.</h2><a class="dl" href="https://github.com/Fal-studio/code3-download/releases/latest/download/Code3-Setup.exe" rel="nofollow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg><span><b>Free download</b><small>v1.0.10 · Windows</small></span></a></div></div>
 <footer><div class="wrap"><p>© fal-studio. The app installs mods on a copy of GTA V you own and does not distribute game files. Code 3 is not affiliated with Rockstar Games or LSPDFR.</p><nav><a href="https://www.youtube.com/watch?v=fKrqtsRe19g&amp;t=36s" rel="nofollow" class="yt" aria-label="YouTube" title="YouTube"><i class="fa-brands fa-youtube"></i></a><a href="https://discord.gg/b6mxWC9jvs" rel="nofollow" class="dc" aria-label="Discord" title="Discord"><i class="fa-brands fa-discord"></i></a><a href="https://github.com/Fal-studio/code3-download" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a></nav></div></footer>
-<script src="../assets/demo.js?v=1cbdd02185" defer></script>
+<script src="../assets/demo.js?v=2f0727fc94" defer></script>
 <script>(function(){var i=document.querySelector('.f.big .shot');if(!i)return;var c=i.parentNode,l=i.getAttribute('data-pick').split(','),k=Math.floor(Math.random()*l.length),im=[i];i.src=l[k];for(var n=1;n<l.length;n++){var x=i.cloneNode();x.removeAttribute('data-pick');x.src=l[(k+n)%l.length];c.insertBefore(x,i.nextSibling);im.push(x)}c.classList.add('rot');i.classList.add('on');var j=0;setInterval(function(){if(document.hidden)return;im[j].classList.remove('on');j=(j+1)%im.length;im[j].classList.add('on')},5000)})()</script>
 <script>(function(){var b=document.querySelector('.mode'),r=document.documentElement;function s(){var n=r.dataset.theme==='night';b.setAttribute('aria-pressed',n?'true':'false')}s();b.addEventListener('click',function(){var n=r.dataset.theme==='night'?'day':'night';r.dataset.theme=n;try{localStorage.setItem('c3-theme',n)}catch(e){}s()})})()</script>
 </body>
