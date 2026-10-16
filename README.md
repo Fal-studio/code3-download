@@ -54,36 +54,75 @@
 
 <div dir="rtl">
 
-### آخر تحديث: v1.0.9
+### آخر تحديث: v1.0.10
 
-**تحديث Code 3 Installer 1.0.9 مع هواتف AI و K9 وتعديلات واقعية**
+**إطلاق النسخة العربية الشاملة وتحديث الذكاء الاصطناعي لـ Code 3**
 
-يضيف هذا التحديث مجموعة ضخمة من المودات والإضافات الجديدة تشمل نظام الهاتف الذكي بالذكاء الاصطناعي، وحدات الكلاب البوليسية K9، وتحسينات الواقعية للأسلحة والمركبات.
+تأتي هذه النسخة بتجربة عربية متكاملة ومبسطة، مع إضافة نظام الذكاء الاصطناعي المتطور NPC-AI وتحسينات جذرية على إدارة التحميلات.
 
 **مودات جديدة**
 
 - **10-21 Officer's Phone**: هاتف للشرطي داخل اللعبة يتصل منه بالمشرف وسيارة الأجرة وخدمة السحب ويحادثهم بصوته، فيردّون عليه بالذكاء الاصطناعي
 - **100% Save Game**: حفظ للقصة مختومة 100%: كل المهمات بالذهبي، وكل العقارات، ومليارات في الحساب
+- **Abughmd Saudi Pack**: سيارات شرطة سعودية بأضواء ELS وملابس EUP سعودية
 - **Add-On Vehicle Spawner**: قائمة تعرض السيارات المضافة لتستدعيها بسهولة
 - **AdvanceK9**: كلب بوليسي متكامل مع أوامر صوتية بالذكاء الاصطناعي
+- **Automatic Roadblocks**: أثناء المطاردة تُنصب الحواجز والمسامير تلقائيًا أمام المشتبه به، ويمكنك طلبها بنفسك
 - **Baton Window Action**: كسر نافذة السيارة المتوقفة بالعصا
+- **GTA V Arabic LCPDFR**: يعرّب LSPDFR وإضافاته وقوائمه للنسخة العربية. ثبّت ملف OIV عبر OpenIV في مجلد mods
 - **MCCallouts**: حزمة بلاغات جديدة بمواقع وتفاصيل متنوعة
+- **NPC-AI (StopThePed)**: نسخة NPC-AI التي تعمل مع StopThePed: تحدّث بصوتك مع المدنيين والشرطة والإسعاف بذكاء Gemini ويردّون عليك
+- **pdComp**: كمبيوتر شرطة وحاسوب محمول وجهاز لوحي ميداني: بحث عن الأشخاص والسيارات، وتقارير، ومحكمة. يعمل مع Policing Redefined أو StopThePed
 - **pdComp Modern UI Pack**: واجهة حديثة لجهاز pdComp بإطارات وأيقونات جديدة
+- **Rampage Trainer**: مدرّب شامل للقصة: إنشاء السيارات وتعديلها، والأسلحة، والانتقال، والملابس، وغيرها من قائمة واحدة
 - **RealismScript - HUD**: واجهة لعب جديدة بتصميم أجمل وأوضح للفلوس والصحة والدرع والأسلحة والذخيرة، بدلًا من واجهة اللعبة الأصلية
 - **Realistic Weapon Behavior**: حركات واقعية للوقوف والجري بالسلاح، وأنماط إطلاق وسعة مخازن واقعية، ومدى أطول لكشاف السلاح، وإطلاق النار من المركبة بالبنادق والرشاشات. ليعمل الكشاف مع LSPDFR اجعل Ambient.DisablePlayerFlashlightOverride على false في lspdfr.ini
-- **Realistic Weapon Behavior — Uninstall**: حزمة إلغاء تثبيت تعديلات السلوك الواقعي للأسلحة وإعادة الملفات للأصلية.
+- **Realistic Weapon Behavior — Uninstall**: حزمة إزالة مود السلوك الواقعي للأسلحة لاستعادة إعدادات اللعبة الأصلية.
 - **Satellite Radar Map**: يغيّر الخريطة الصغيرة وخريطة الإيقاف (Esc) إلى صور أقمار صناعية عالية الدقة، وملف الإزالة يعيد الخريطة الأصلية
-- **Satellite Radar Map — Uninstall**: حزمة إلغاء تثبيت خريطة الأقمار الصناعية لاستعادة خريطة اللعبة الأصلية.
 - **Saudi Police Siren Sounds**: أصوات سرينات الشرطة السعودية لجميع سيارات الشرطة في اللعبة. يستبدل ملف RESIDENT.rpf في مجلد mods، وملف الإزالة يعيد الأصوات الأصلية
 - **SirenSetting Limit Adjuster**: يرفع حد أضواء الطوارئ في السيارات ويقلل تعارض إضاءاتها
+- **StopThePed & Ultimate Backup Arabic**: يضيف ملفات اللغة العربية إلى StopThePed وUltimate Backup. ثبّت ملف OIV عبر OpenIV في مجلد mods
 - **TaserBarbsSP**: إبر التيزر تخرج وتعلق بالمشتبه به
 - **Vibe Dispatch**: بلاغات عشوائية تقبلها من الإشعارات مع قائمة دعم
 
 **جديد**
 
-- إضافة تصميم واجهة جديد كلياً ومطور ليكون أكثر سهولة وجاذبية.
-- إضافة مجموعة ضخمة من المودات والإضافات الجديدة المطلوبة لـ LSPDFR.
-- التعريب قيد التطوير حالياً وسيتم الانتهاء منه وإطلاقه قريباً جداً.
+- النسخة العربية متاحة الآن للجميع لتجربة لعب متكاملة.
+- تعريب نظام LSPDFR ليشمل القوائم والنصوص الخاصة بمود الشرطة.
+- إضافة حزمة Abughmd السعودية لسيارات الشرطة المزودة بأضواء ELS وملابس EUP (جميع الحقوق محفوظة للمطور Abughmd).
+- توفير أصوات سرينات الشرطة السعودية لجميع مركبات الشرطة داخل اللعبة.
+- إضافة تعريب مودات StopThePed وUltimate Backup بواسطة eng-sultan.
+- إتاحة Rampage Trainer مع واجهة عربية مطورة بواسطة eng-sultan.
+- تعريب جوال الشرطي 10-21 ومود pdComp بواسطة eng-sultan.
+- تعريب مودات Automatic Roadblocks وAdd-On Vehicle Spawner بواسطة FAL.
+- إضافة نظام NPC-AI للتحدث مع الشخصيات داخل اللعبة باستخدام صوتك وباللغة العربية.
+- إطلاق نسخة جديدة ومخصصة من الذكاء الاصطناعي متوافقة مع StopThePed.
+
+**تحسينات**
+
+- تسيط بطاقة النسخة العربية في التثبيت الذكي لتثبيت جميع المكونات تلقائياً.
+- البطاقة الواقعية أصبحت تثبت النسخة الإنجليزية للمودات تلقائياً.
+- النظام أصبح يفهم كلامك باللغة العربية بناءً على اللهجة التي تحددها.
+- نافذة اللغة بتصميم جديد تتيح لك كتابة الأوامر الخاصة بك أو تعديل أوامر المود.
+- استئناف التنزيل تلقائياً من حيث توقف بعد انقطاع الإنترنت أو إغلاق البرنامج، مع إظهار تنبيه واضح عند امتلاء القرص أو عدم توفر المود.
+- تقسيم قسم الإضافات إلى تصنيفات دقيقة تشمل البلاغات، الإيقاف والمرور، الدعم، الراديو، الذكاء الاصطناعي، الحواسيب، المعدات، الأضواء والملابس، والأجواء.
+- تنظيم القائمة الجانبية في مجموعات مرتبة مع وضع زر الرئيسية في مقدمتها.
+- ترتيب صفحة الملفات المثبتة حسب الأقسام، مع عرض مسار كل مود في ملفات اللعبة مع إمكانية فتح مجلده بضغطة زر.
+- تبسيط أداة فحص التعارضات لتصبح نافذة سهلة تحل المشاكل بنقرة زر واحدة.
+- تحديث نافذة الإادات بتصميم جديد كلياً يتضمن ميزة البحث.
+- تعريب إعدادات ELS وScriptHookVDotNet وجوال 10-21، مع إمكانية تغيير أزرار ELS بالضغط المباشر بدلاً من الأرقام.
+- محرر الأزرار أصبح يدعم عرض أزرار مخصصات ReShade وENB وVisualV.
+- إضافة أسماء المطورين والمعربين ضمن معلومات المودات المعربة لتسليط الضوء على جهودهم.
+- تحديث واجهة التثبيت الذكي لتعمل بسلاسة أكبر مع الحزم الإنجليزية.
+- تحسين توافقية الأداء العام عند تثبيت ملفات OIV المتعددة عبر أداة التثبيت.
+- تحديث ملفات الترجمة والدعم الفني داخل التطبيق لضمان استجابة أسرع.
+- إجراء تحسينات عامة على استقرار النظام وسرعة استجابة واجهة المستخدم.
+
+**إصلاحات**
+
+- معالجة مشكلة توقف تنزيل المودات وظهور رسائل انقطاع الاتصال المفاجئة.
+- دمج بطاقات LSPDFR المتعددة في بطاقة واحدة تتيح للمستخدم اختيار النسخة المناسبة.
+- عرض سبب واضح للمستخدم في حال تعذر حذف أي مود.
 
 </div>
 
@@ -151,36 +190,75 @@ Installing police mods by hand takes hours of searching, downloading and placing
 
 <!-- LATEST_EN:START -->
 
-### Latest update: v1.0.9
+### Latest update: v1.0.10
 
-**Code 3 Installer 1.0.9: AI Phone, K9 & Realism Mods**
+**Comprehensive Arabic Edition and AI Update for Code 3**
 
-This update brings a massive wave of new mods including the AI officer's phone, AdvanceK9 companion, and comprehensive weapon and realism enhancements.
+This update brings a comprehensive and simplified Arabic experience, along with the advanced NPC-AI system and major improvements to download management.
 
 **New mods**
 
 - **10-21 Officer's Phone**: An in-game officer's phone: call your supervisor, a taxi or a tow and talk to them with your own voice, they answer with AI
 - **100% Save Game**: A 100% completed story save: every mission on gold, every property owned, billions in the bank
+- **Abughmd Saudi Pack**: Saudi police cars with ELS lights and Saudi EUP uniforms
 - **Add-On Vehicle Spawner**: Menu that lists your add-on cars so you can spawn them
 - **AdvanceK9**: Full K9 police dog with AI voice commands
+- **Automatic Roadblocks**: Deploys roadblocks and spike strips ahead of suspects during pursuits, or on request
 - **Baton Window Action**: Break a stopped car's window with your baton
+- **GTA V Arabic LCPDFR**: Arabic localization for LSPDFR, its plugins and menus. Install this OIV with OpenIV to the mods folder
 - **MCCallouts**: Callout pack with varied scenarios and locations
+- **NPC-AI (StopThePed)**: The NPC-AI version for StopThePed: talk by voice with civilians, police and EMS, powered by Gemini AI
+- **pdComp**: Police laptop and field tablet: people and vehicle lookups, reports and court. Works with Policing Redefined or StopThePed
 - **pdComp Modern UI Pack**: Modern look for pdComp with new bezels and icons
+- **Rampage Trainer**: A full story-mode trainer: spawn and tune vehicles, weapons, teleports, outfits and more from one menu
 - **RealismScript - HUD**: A new, cleaner in-game HUD for money, health, armour, weapons and ammo, replacing the original game HUD
 - **Realistic Weapon Behavior**: Realistic idle and running weapon animations, realistic fire modes and magazine sizes, a longer flashlight reach, and firing rifles and SMGs from vehicles. For the flashlight to work with LSPDFR, set Ambient.DisablePlayerFlashlightOverride to false in lspdfr.ini
-- **Realistic Weapon Behavior — Uninstall**: Uninstall package to revert Realistic Weapon Behavior changes back to default.
+- **Realistic Weapon Behavior — Uninstall**: Removal package for the Realistic Weapon Behavior mod to restore original game settings.
 - **Satellite Radar Map**: Turns the radar and the pause-menu (Esc) map into high-resolution satellite imagery; the uninstall package brings the original map back
-- **Satellite Radar Map — Uninstall**: Uninstall package to restore the original game radar and pause-menu map.
 - **Saudi Police Siren Sounds**: Saudi police siren sounds for every police vehicle in the game. Replaces RESIDENT.rpf in the mods folder; the uninstall package brings the original sounds back
 - **SirenSetting Limit Adjuster**: Raises the emergency light limits and reduces light clashes between car mods
+- **StopThePed & Ultimate Backup Arabic**: Adds Arabic language files for StopThePed and Ultimate Backup. Install this OIV with OpenIV to the mods folder
 - **TaserBarbsSP**: Taser fires visible electrode barbs
 - **Vibe Dispatch**: Random callouts you accept from notifications, with a backup menu
 
 **New**
 
-- Added a brand new, revamped user interface designed for a smoother experience.
-- Integrated a wide selection of new, highly requested mods and plugins for LSPDFR.
-- Arabic localization is currently under development and will be completed soon.
+- The Arabic version is now available to everyone for a complete gaming experience.
+- Localization of LSPDFR to include menus and texts for the police mod.
+- Added Abughmd Saudi police car pack with ELS lights and EUP uniforms (all rights reserved to developer Abughmd).
+- Provided Saudi police siren sounds for all police vehicles in the game.
+- Added Arabic localization for StopThePed and Ultimate Backup mods by eng-sultan.
+- Made Rampage Trainer available with an Arabic interface developed by eng-sultan.
+- Localized the 10-21 officer phone and pdComp mod by eng-sultan.
+- Localized the Automatic Roadblocks and Add-On Vehicle Spawner mods by FAL.
+- Added the NPC-AI system to converse with in-game characters using your voice and in Arabic.
+- Released a new and dedicated AI version compatible with StopThePed.
+
+**Improvements**
+
+- The Arabic version card in smart installation has been simplified to install all components automatically.
+- The realism card now automatically installs the English version of the mods.
+- The system now understands your speech in Arabic based on your selected dialect.
+- A new language window design allows you to write your own prompts or modify the mod prompts.
+- Resuming downloads automatically from where they stopped after internet disconnection or program closure, with clear alerts if the disk is full or the mod is unavailable.
+- Dividing the addons section into precise categories including calls, traffic stops, backup, radio, AI, computers, equipment, lights and clothing, and atmosphere.
+- Organizing the sidebar into structured groups with the home button placed at the top.
+- Arranging the installed files page by sections, displaying each mod's path in the game files with the ability to open its folder in one click.
+- Simplifying the conflict checker tool into an easy window that resolves conflicts with a single click.
+- Updating the settings window with a brand new design that includes a search feature.
+- Localizing ELS, ScriptHookVDotNet, and 10-21 phone settings, with the ability to change ELS buttons by direct pressing instead of numbers.
+- The key editor now supports displaying shortcut keys for ReShade, ENB, and VisualV.
+- Adding the names of developers and translators within the translated mod information to highlight their efforts.
+- Updating the smart installation interface to work more smoothly with English packages.
+- Improving overall performance compatibility when installing multiple OIV files through the installer.
+- Updating translation files and technical support within the application to ensure faster response.
+- Performing general improvements to system stability and user interface responsiveness.
+
+**Fixes**
+
+- Resolved the issue of mod downloads stopping and unexpected disconnection messages appearing.
+- Consolidated multiple LSPDFR cards into a single card allowing the user to select the appropriate version.
+- Displaying a clear reason to the user if any mod fails to be deleted.
 
 <!-- LATEST_EN:END -->
 
